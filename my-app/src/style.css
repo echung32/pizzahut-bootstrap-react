@@ -18,3 +18,11 @@
 .young-serif {
     font-family: 'Young Serif', serif;
 }
+
+.nav-link {
+    --bs-nav-link-color: black;
+}
+
+#no-caret.dropdown-toggle::after {
+    display: none !important;
+}
